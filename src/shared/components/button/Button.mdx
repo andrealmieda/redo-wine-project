@@ -1,0 +1,30 @@
+---
+name: Button
+route: /components/button
+order: 1
+parent: Components
+menu: Components
+---
+
+import Button from './Button.js'
+import { Playground } from 'docz';
+
+# Button
+
+This component is a styled version of the `button` component from react. It doesn't change any of the original props.
+This component supports 3 different flavors. 
+
+- Default
+- Primary
+- Secondary
+
+To use the flavors just pass the props `primary` or `secondary` accordingly to `<Button />`. 
+The default flavor is active unless one of the other flavors props is passed  
+
+## Visual look
+Here is the look of the flavors `primary`, `secondary` and default respectively.
+<Playground>
+    <Button primary> Hello I'm the Primary </Button>
+    <Button secondary> Secondary here! </Button>
+    <Button> I'm the default one </Button>
+</Playground>

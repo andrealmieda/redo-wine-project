@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> should render correctly 1`] = `
+.c0 {
+  margin: 5px;
+  padding: 0px;
+  background: #ffffff;
+  color: #a52b4c;
+  border: none;
+  border-radius: 5px;
+}
+
+<Styled(Component)>
+  <StyledComponent
+    forwardedComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bdVaJa",
+          "isStatic": false,
+          "lastClassName": "c0",
+          "rules": Array [
+            "
+    margin: 5px;
+    padding: ",
+            [Function],
+            ";
+    
+    background: ",
+            [Function],
+            ";
+    color: ",
+            [Function],
+            ";
+    
+    border: ",
+            [Function],
+            ";
+    border-radius: 5px;
+",
+          ],
+        },
+        "displayName": "Styled(Component)",
+        "foldedComponentIds": Array [],
+        "propTypes": Object {
+          "primary": [Function],
+          "secondary": [Function],
+        },
+        "render": [Function],
+        "styledComponentId": "sc-bdVaJa",
+        "target": [Function],
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+        Symbol(Symbol.hasInstance): [Function],
+      }
+    }
+    forwardedRef={null}
+  >
+    <Component
+      className="c0"
+    >
+      <button
+        className="c0"
+      >
+        Hello 👋 I am the button text
+      </button>
+    </Component>
+  </StyledComponent>
+</Styled(Component)>
+`;
+
+exports[`<Button /> shouldn't pass style related props to the button 1`] = `
+.c0 {
+  margin: 5px;
+  padding: 10px;
+  background: #a52b4c;
+  color: #ffffff;
+  border: 1px solid #a52b4c;
+  border-radius: 5px;
+}
+
+<Styled(Component)
+  primary={true}
+  secondary={true}
+>
+  <StyledComponent
+    forwardedComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bdVaJa",
+          "isStatic": false,
+          "lastClassName": "c0",
+          "rules": Array [
+            "
+    margin: 5px;
+    padding: ",
+            [Function],
+            ";
+    
+    background: ",
+            [Function],
+            ";
+    color: ",
+            [Function],
+            ";
+    
+    border: ",
+            [Function],
+            ";
+    border-radius: 5px;
+",
+          ],
+        },
+        "displayName": "Styled(Component)",
+        "foldedComponentIds": Array [],
+        "propTypes": Object {
+          "primary": [Function],
+          "secondary": [Function],
+        },
+        "render": [Function],
+        "styledComponentId": "sc-bdVaJa",
+        "target": [Function],
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+        Symbol(Symbol.hasInstance): [Function],
+      }
+    }
+    forwardedRef={null}
+    primary={true}
+    secondary={true}
+  >
+    <Component
+      className="c0"
+      primary={true}
+      secondary={true}
+    >
+      <button
+        className="c0"
+      >
+        Hello 👋 I am the button text
+      </button>
+    </Component>
+  </StyledComponent>
+</Styled(Component)>
+`;
