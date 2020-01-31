@@ -1,4 +1,4 @@
-# Redo Wine
+# Redo Wine 🍷
 
 A personal redo of a wine shop project that I already had worked.
 
